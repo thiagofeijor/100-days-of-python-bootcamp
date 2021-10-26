@@ -28,4 +28,4 @@
      
 ### Day 75 Data Science
 <img src="https://raw.github.com/thiagofeijor/100-days-of-python-bootcamp/main/.assets/day-75-google-play-store-app-analytics.gif" alt="Data Science" />
-     
+![](.assets/day-75-google-play-store-app-analytics.gif)
