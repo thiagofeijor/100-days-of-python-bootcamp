@@ -10,12 +10,10 @@
 
 
 ### Day 23 Turtle Crossing
-<img src="https://raw.github.com/thiagofeijor/100-days-of-python-bootcamp/main/.assets/day-23-turtle-crossing.gif" alt="Turtle Crossing" />
-     
+<img src="https://raw.github.com/thiagofeijor/100-days-of-python-bootcamp/main/.assets/day-23-turtle-crossing.gif" alt="Turtle Crossing" />   
 
 ### Day 86 Breakout
 <img src="https://raw.github.com/thiagofeijor/100-days-of-python-bootcamp/main/.assets/day-86-breakout.gif" alt="Breakout" />
-     
 
 ### Day 30 Password Manager
 <img src="https://raw.github.com/thiagofeijor/100-days-of-python-bootcamp/main/.assets/day-30-password-manager.gif" alt="Password Manager" />
@@ -28,4 +26,3 @@
      
 ### Day 75 Data Science
 <img src="https://raw.github.com/thiagofeijor/100-days-of-python-bootcamp/main/.assets/day-75-google-play-store-app-analytics.gif" alt="Data Science" />
-![](.assets/day-75-google-play-store-app-analytics.gif)
