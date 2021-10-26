@@ -1,6 +1,6 @@
 <p align="center">
     <a href="https://www.udemy.com/course/100-days-of-code/">
-        <img src="https://raw.github.com/thiagofeijor/100-days-of-python-bootcamp/main/.assets/logo.gif" height="150" width="175" alt="logo" />
+        <img src="https://raw.github.com/thiagofeijor/100-days-of-python-bootcamp/main/.assets/logo.png" alt="logo" />
     </a>
 </p>
 
