@@ -22,7 +22,7 @@
 <img src="https://raw.github.com/thiagofeijor/100-days-of-python-bootcamp/main/.assets/day-28-pomodoro.gif" alt="Pomodoro" />
      
 ### Day 55
-<img src="https://raw.github.com/thiagofeijor/100-days-of-python-bootcamp/main/.assets/day-55.gif" />
-     
+<img src="https://github.com/thiagofeijor/100-days-of-python-bootcamp/blob/main/.assets/day-55.gif?raw=true" />
+    
 ### Day 75 Data Science
-<img src="https://raw.github.com/thiagofeijor/100-days-of-python-bootcamp/main/.assets/day-75-google-play-store-app-analytics.gif" alt="Data Science" />
+<img src="https://github.com/thiagofeijor/100-days-of-python-bootcamp/blob/main/.assets/day-75-google-play-store-app-analytics.gif?raw=true" alt="Data Science" />
