@@ -1,0 +1,51 @@
+{% include "header.html" %}
+
+<header class="masthead" style="background-image: url('https://images.unsplash.com/photo-1470092306007-055b6797ca72?ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80')">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <div class="site-heading">
+          <h1>Thiago's Shop</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+
+  <div class="row">
+    {% for product in all_products %}
+    <div class="card" style="width: 18rem; margin: 10px; justify-content: space-between;">
+      <img class="card-img-top" src="{{product.img_url}}">
+      <div class="card-body">
+        <a href="{{ url_for('show_product', product_id=product.id) }}">
+          <h5 class="card-title">{{product.title}}</h5>
+          <h6 class="card-subtitle mb-2 text-muted">{{product.price}}</h6>
+          <p class="card-text">
+            {{product.subtitle}}
+          </p>
+        </a>
+        <a href="{{ url_for('buy_product', product_id=product.id) }}" class="btn btn-primary">Buy</a>
+        {% if current_user.id == 1: %}
+          <a href="{{url_for('delete_product', product_id=product.id) }}">✘</a>
+        {% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
+  <div class="row">
+    <div class="col-lg-12">
+      {% if current_user.id == 1: %}
+      <div class="clearfix">
+        <a class="btn btn-primary float-right" href="{{ url_for('add_new_product') }}">Create New Product</a>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</div>
+<hr>
+
+{% include "footer.html" %}

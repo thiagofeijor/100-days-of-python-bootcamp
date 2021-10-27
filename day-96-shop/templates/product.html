@@ -1,0 +1,38 @@
+{% include "header.html" %}
+
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url('{{product.img_url}}')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="product-heading">
+            <h1>{{product.title}}</h1>
+            <h2 class="subheading">{{product.subtitle}}</h2>
+            <span class="meta">Price:
+              <strong>{{product.price}}</strong>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Post Content -->
+  <article>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+            {{ product.body|safe }}
+          <hr>
+          {% if current_user.id == 1: %}
+          <div class="clearfix">
+            <a class="btn btn-primary float-right" href="{{url_for('edit_product', product_id=product.id)}}">Edit product</a>
+          </div>
+          {% endif %}
+      </div>
+    </div>
+  </article>
+
+  <hr>
+{% include "footer.html" %}
